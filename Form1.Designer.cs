@@ -1,4 +1,4 @@
-﻿namespace ListenPacket
+﻿namespace PacketListener
 {
     partial class Form1
     {

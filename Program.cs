@@ -1,4 +1,4 @@
-namespace ListenPacket
+namespace PacketListener
 {
     internal static class Program
     {

@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 
-namespace ListenPacket
+namespace PacketListener
 {
     public partial class Form1 : Form
     {
