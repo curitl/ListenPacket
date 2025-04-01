@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ListenData": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}
