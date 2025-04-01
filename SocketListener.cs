@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net;
 using System.Net.Sockets;
-using System.Net;
-using System.Security.Cryptography;
-using System.Diagnostics;
 
 namespace ListenPacket
 {
@@ -17,10 +10,10 @@ namespace ListenPacket
         public int port;
 
 
-        public SocketListener(int por)
+        public SocketListener(int p)
         {
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            port = por;
+            port = p;
         }
 
         public void StartServer()
