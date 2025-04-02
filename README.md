@@ -1,6 +1,6 @@
 # PacketListener
 
-This program is use for logging data packet for specific software.
+This program is use for logging data packet for specific software. (For IPv4 only)
 
 ### How to use
 
